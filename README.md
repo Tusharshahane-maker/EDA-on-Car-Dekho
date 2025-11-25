@@ -1,81 +1,132 @@
-# EDA-on-Car-Dekho
-CarDekho Used Car Analysis
+📊 CarDekho Used Car Data – Exploratory Data Analysis (EDA)
 
-# Project Overview
-This project performs Exploratory Data Analysis (EDA) on used-car listing data from CarDekho. The analysis helps to understand how different factors like car age, brand, fuel type, transmission, and mileage affect the resale price.
+This project performs a detailed Exploratory Data Analysis (EDA) on a used car dataset sourced from CarDekho. The goal is to understand the key factors that influence car resale prices and identify meaningful trends in the Indian used-car market.
 
-# Objectives
+📁 Project Overview
 
-Analyze resale price distribution by brand, year, and fuel type
+Used car prices vary widely depending on multiple factors like brand, manufacturing year, mileage, fuel type, and number of previous owners.
+This project analyzes these features to uncover insights such as:
 
-Understand how car age and kilometers driven influence price
+How car age affects resale value
 
-Identify popular car brands and their market share
+Which brands are most common in listings
 
-Explore trends in ownership, transmission type, and seller type
+Which fuel types dominate the market
 
-# Dataset
+How kilometers driven influence price
 
-Source: CarDekho dataset (CSV)
+Price comparison across manual vs automatic transmission
 
-Key columns :
+Seller type trends (Dealer vs Individual)
 
-name – brand + model
+The findings help both buyers and sellers understand the market better.
 
-year – manufacturing year
+📌 Dataset Details
 
-selling_price – resale price in INR
+Source: CarDekho (public dataset)
 
-km_driven – total kilometers run
+Key Columns:
 
-fuel – petrol/diesel/CNG/electric
+Column Name	Description
+name	Car brand & model
+year	Manufacturing year
+selling_price	Price at which the car is being sold
+km_driven	Total kilometers driven
+fuel	Type of fuel (Petrol, Diesel, CNG, LPG, Electric)
+seller_type	Seller category (Individual/Dealer/Trustmark)
+transmission	Manual or Automatic
+owner	Number of previous owners
+🛠️ Tools & Technologies
 
-seller_type – individual or dealer
+Python
 
-transmission – manual/automatic
+Pandas, NumPy
 
-owner – number of previous owners
+Matplotlib, Seaborn
 
-# Tools & Technologies
+Jupyter Notebook
 
-Python (Pandas, NumPy)
+🔍 Analysis Performed
+✔️ Data Cleaning
 
-Data Visualization: Matplotlib, Seaborn
+Removed missing values
 
-Jupyter Notebook for analysis
+Standardized text fields
 
-# Key Findings (example, adjust to your findings)
+Checked for duplicates
 
-Petrol cars form the majority of listings
+Converted data types (numeric, categorical)
 
-Older cars (e.g., > 10 years) tend to have much lower prices
+✔️ Exploratory Data Analysis
 
-Automatic transmission cars cost more than manual ones on average
+Distribution of selling prices
 
-Mileage (km_driven) and car age are strong predictors of resale value
+Price variation by fuel type
 
-Maruti, Hyundai, and Honda are among the most frequent brands in the dataset
+Car age vs selling price
 
-# Visualizations
+Kilometers driven vs price (scatter)
 
-Bar charts (fuel type, seller type)
+Transmission type comparison
 
-Scatter plots (price vs km driven)
+Seller type market share
 
-Line charts (price trend by manufacturing year)
+Top brands in the dataset
 
-Pie charts (market share of seller types or brands)
+Outlier detection with box plots
 
-# Instructions to Run
+✔️ Visualizations
 
-Clone the repository
+Bar charts for brand count, fuel type
 
-Install the required Python packages:
+Scatter plots (price vs km_driven / year)
+
+Pie charts for seller type distribution
+
+Line charts for price trends by year
+
+Heatmaps for correlation among features
+
+📈 Key Insights
+
+Here are some typical insights (modify based on your notebook results):
+
+Petrol cars dominate the dataset.
+
+Maruti, Hyundai, and Honda are the most listed car brands.
+
+Automatic cars generally have a higher selling price than manual ones.
+
+Cars with lower mileage get better resale prices.
+
+Cars older than 10 years show a sharp decline in value.
+
+Fuel type and transmission strongly influence price.
+
+Owner count impacts buyer perception and reduces price.
+
+▶️ How to Run the Project
+
+Clone this repository:
+
+git clone <your-repo-link>
+
+
+Install dependencies:
 
 pip install -r requirements.txt
 
 
-Open EDA.ipynb in Jupyter Notebook and run all cells
+Launch Jupyter Notebook:
 
+jupyter notebook
+
+
+Open the notebook file:
+
+EDA - Car Dekho.ipynb
+
+
+Run all cells to reproduce the analysis.
 # Conclusion
 This analysis gives valuable insights about the used car market (from CarDekho), helping both buyers and sellers make data-driven decisions about pricing, car selection, and timing.
