@@ -1,6 +1,5 @@
 # EDA-on-Car-Dekho
-Car Dekho Sales Overviews
-CarDekho Used Car Analysis (README Summary)
+CarDekho Used Car Analysis
 
 # Project Overview
 This project performs Exploratory Data Analysis (EDA) on used-car listing data from CarDekho. The analysis helps to understand how different factors like car age, brand, fuel type, transmission, and mileage affect the resale price.
