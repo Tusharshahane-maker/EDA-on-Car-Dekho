@@ -2,10 +2,10 @@
 Car Dekho Sales Overviews
 CarDekho Used Car Analysis (README Summary)
 
-Project Overview
+# Project Overview
 This project performs Exploratory Data Analysis (EDA) on used-car listing data from CarDekho. The analysis helps to understand how different factors like car age, brand, fuel type, transmission, and mileage affect the resale price.
 
-Objectives
+# Objectives
 
 Analyze resale price distribution by brand, year, and fuel type
 
@@ -15,11 +15,11 @@ Identify popular car brands and their market share
 
 Explore trends in ownership, transmission type, and seller type
 
-Dataset
+# Dataset
 
 Source: CarDekho dataset (CSV)
 
-Key columns:
+Key columns :
 
 name – brand + model
 
@@ -37,7 +37,7 @@ transmission – manual/automatic
 
 owner – number of previous owners
 
-Tools & Technologies
+# Tools & Technologies
 
 Python (Pandas, NumPy)
 
@@ -45,7 +45,7 @@ Data Visualization: Matplotlib, Seaborn
 
 Jupyter Notebook for analysis
 
-Key Findings (example, adjust to your findings)
+# Key Findings (example, adjust to your findings)
 
 Petrol cars form the majority of listings
 
@@ -57,7 +57,7 @@ Mileage (km_driven) and car age are strong predictors of resale value
 
 Maruti, Hyundai, and Honda are among the most frequent brands in the dataset
 
-Visualizations
+# Visualizations
 
 Bar charts (fuel type, seller type)
 
@@ -67,7 +67,7 @@ Line charts (price trend by manufacturing year)
 
 Pie charts (market share of seller types or brands)
 
-Instructions to Run
+# Instructions to Run
 
 Clone the repository
 
@@ -78,5 +78,5 @@ pip install -r requirements.txt
 
 Open EDA.ipynb in Jupyter Notebook and run all cells
 
-Conclusion
+# Conclusion
 This analysis gives valuable insights about the used car market (from CarDekho), helping both buyers and sellers make data-driven decisions about pricing, car selection, and timing.
